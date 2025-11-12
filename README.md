@@ -9,6 +9,13 @@ El código muestra ejemplos básicos del uso de C#.
 - Comparación inexacta de valores de variables tipo Double.
 - Comparación valores de variables tipo Decimal.
 
+## Ejemplos futuros:
+- Patrones de arquitectura
+  - Factory
+  - Command
+  - CQRS
+  - Client - Server
 
-Desarrollado por: Diegue B.
+
+Atentamente: Diegue B.
 
