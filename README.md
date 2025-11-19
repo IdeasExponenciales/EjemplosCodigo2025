@@ -8,6 +8,7 @@ El código muestra ejemplos básicos del uso de C#.
 ## Ejemplos incluidos:
 - Comparación inexacta de valores de variables tipo Double.
 - Comparación valores de variables tipo Decimal.
+- Asignación de valores a objetos de clases inmutables (string).
 
 ## Ejemplos futuros:
 - Patrones de arquitectura

@@ -11,6 +11,7 @@ while (true)
     Console.WriteLine("1) Comparación con double");
     Console.WriteLine("2) Comparación con decimal");
     Console.WriteLine("3) Ejemplo con Dynamic");
+    Console.WriteLine("4) Ejemplo clase inmutable");
     Console.WriteLine("\nX) Salir\n\n");
     Console.Write("escribe tu elección y presiona <enter>: ");
     opcionElegida = (Console.ReadLine()??string.Empty).ToUpper();
@@ -18,6 +19,7 @@ while (true)
     DoubleComparator comparadorDobles = new DoubleComparator();
     DecimalComparator comparadorDecimal = new DecimalComparator();
     DynamicExample dynamicEjemplo = new DynamicExample();
+    StringImmutableExample stringEjemplo01 = new StringImmutableExample();
     switch (opcionElegida)
     {
         case "1":
@@ -28,6 +30,9 @@ while (true)
             break;
         case "3":
             dynamicEjemplo.EjemploVariableDinamica();
+            break;
+        case "4":
+            stringEjemplo01.EjemploInmutabilidad();
             break;
     }
     if(opcionElegida.Equals("X"))
